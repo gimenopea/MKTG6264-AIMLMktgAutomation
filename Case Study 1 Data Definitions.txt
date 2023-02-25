@@ -1,0 +1,36 @@
+A Wal-Mart wants to see what level of “roll-back” sales attract which customers
+
+–MarkDown1 = regular price; MarkDown2 = first level of roll-back
+–Level of roll-back discounts are not shared; assume that that they are proportionate across goods
+
+Your job: Predict how much revenue 10 new random customers will generate. Write an actionable memo that tells this. Your memo should also discuss something that doesn’t make sense.
+
+Also fill in the blanks on the 16 ones with missing gender / age
+
+What you should do:
+
+1. Look at each roll-back level by demographic
+
+2. Look at new customers and estimate (a) their purchases by roll-back level; and (b) how much they will be worth to the store
+
+
+
+
+
+
+
+
+Data Definitions
+
+Customer_No = a number identifying the customer
+Gender = F / M
+Age = age in years
+Total = total amount spent (sum of the next five)
+MarkDown1 = dollar value of goods purchased without discount
+MarkDown2 = dollar value of goods purchased at discount level 1
+MarkDown3 = dollar value of goods purchased at discount level 2
+MarkDown4 = dollar value of goods purchased at discount level 3
+MarkDown5 = dollar value of goods purchased at discount level 4
+R = Recency (bucket ranking)
+F = Frequency (bucket ranking)
+M = Monetary (bucket ranking)
